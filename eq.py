@@ -4,7 +4,7 @@
 temp_scales = ['F', 'C']
 
 # take in temp
-temp_in = int(input('temp: '))
+temp_in = float(input('temp: '))
 
 # calc functions
 def f_to_c(temp_f):
